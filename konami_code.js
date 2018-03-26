@@ -4,7 +4,7 @@ function init() {
   // Write your JavaScript code inside the init() function
 
   const body = document.body
-  
+  const alphabet = [222,222]
   let index = 0;
  
   // This is the function that would be invoked by the event listener.
@@ -24,5 +24,5 @@ function init() {
     }
   }
   
-  body.eventListener('keydown')
+  body.eventListener('keydown', onKeyDownHandler(e))
 }
