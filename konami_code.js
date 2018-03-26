@@ -26,3 +26,5 @@ function init() {
   
   body.eventListener('keydown', onKeyDownHandler(e))
 }
+
+init()
