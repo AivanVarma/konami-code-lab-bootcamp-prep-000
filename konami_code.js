@@ -24,7 +24,7 @@ function init() {
     }
   }
   
-  body.eventListener('keydown', onKeyDownHandler(e))
+  body.eventListener('keydown', onKeyDownHandler
 }
 
 init()
