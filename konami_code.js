@@ -15,7 +15,7 @@ function init() {
      index++;
   
       if (index === code.length) {
-       alert("Hurray!");
+       alert("You Konami cheater, you! Well done!");
  
         index = 0;
       }
